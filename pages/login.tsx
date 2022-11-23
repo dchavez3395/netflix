@@ -10,7 +10,7 @@ interface Inputs {
   password: string
 }
 
-const login = () => {
+const Login = () => {
   const [login, setLogin] = useState(false)
   const { signIn, signUp } = useAuth()
 
@@ -44,11 +44,11 @@ const login = () => {
           alt='/'
         />
           <img
-            src="https://www.freepnglogos.com/uploads/netflix-logo-text-emblem-31.png"
-            width={150}
-            height={150}
-            className="absolute left-4 top-4 cursor-pointer object-contain md:left-10 md:top-6"
-            /> 
+          src="https://rb.gy/ulxxee"
+          className="absolute left-4 top-4 cursor-pointer object-contain md:left-10 md:top-6"
+          width={150}
+          height={150}
+        />
             <form onSubmit={handleSubmit(onSubmit)} className='rounded space-y-8 mt-24 relative py-10 px-6 bg-black/75 md:mt-0 md:max-w-md md:px-14'>
               <h1 className='font-semibold text-4xl'>Sign In</h1>
               <div className='space-y-4'>
@@ -74,4 +74,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login
