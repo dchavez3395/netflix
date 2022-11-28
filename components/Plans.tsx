@@ -46,7 +46,7 @@ function Plans({ products }: Props) {
         </button>
       </header>
       <main className='pt-40 pb-12 max-w-5xl px-5 transition-all md:px-10 mx-auto'>
-        <h2 className='font-medium text-3xl mb-3'>Choose the plan that's right for you</h2>
+        <h2 className='font-medium text-3xl mb-3'>Choose the plan thats right for you</h2>
         <ul>
             <li className="flex items-center gap-x-2 text-lg">
                 <CheckIcon className="h-7 w-7 text-[#E50914]" /> Watch all you want.
